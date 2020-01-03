@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  }
+.index {
+  background-color:#73db70;
+}
+  .about-me{
+  font-size:155px;
+  font-family: 'Kanit', sans-serif;
+  font-style:italic;
+  }
+  h3 {
+  font-size:40px;
+  display:inline;
+  }
+  hr {
+    border-color: black;
+  }
+  .calendar-link {
+
+    font-size: 40px;
+    color: blue;
+    float: center;
+    display:inline;
+    margin-top:0;
+    padding-top:0;
+    text-align: center;
+  }
+  .link-to-page {
+    font-size:40px;
+    font-family: 'Amita', cursive;
+  }
+  .links {
+    font-size:155px;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+  }
+  .portfolio-body {
+    background-color: #0db9e0
+  }
+  .link-des {
+    font-size:40px;
+
+  }
+  .who-am-i {
+    font-size: 40px;
+  }
+  .paragraph {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  @keyframes blurFilter {
+    from {
+        filter: blur(20px);
+    }
+
+    to {
+        filter: blur(0px);
+    }
+}
+  img.filtered-image {
+  animation: blurFilter 1.75s forwards;
+  transition: height 1.5s, width 1.5s;
+}
+  img.filtered-image:hover {
+  transition: height 1.75s, width 1.5s;
+  height: 250px;
+}
+.top {
+  background-color: #000000;
+  width: 100%;
+}
+.lines {
+  width: 120px;
+}
+.logo {
+  width: 120px;
+}
+.links {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: white
+}
+.mainContent  {
+  margin: 20px;
+}
